@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: 10px 25px;
+    background-color: bisque;
+    color: white;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: aliceblue;
+    padding: 15px 30px;
+    border-top: 1px solid lightblue;
+}
+
+.mots{
+    display: inline-block;
+    width: 10%;
+    height: 5%;
+    background-color: aqua;
+    border: solid;
+    border-width: 2px;
+}
+
+.blueBox {
+    width: 100rem;
+    height: 5rem;
+    border: 1px solid #999;
+    background-color:blue;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 200px;
+  }
+
+

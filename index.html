@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Titre de la page<!--Titre saillant--></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      #redBox {
+        width: 100rem;
+        height: 5rem;
+        border: 1px solid #999;
+        background-color: #ff0000;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+    
+    </header>
+    <section>
+        <h3>Relation item-conteneur</h3>
+        <p>
+          <strong class="accent">Glissez les verbs</strong> en anglais dans le
+          temps verbal.
+        </p>
+        <div class="d-flex space-evenly" data-draggable-items>
+          <div id="redBox">drove</div>
+          <div class="mots" id="premier mot" data-tense="present">fly</div>
+          <div class="blueBox"  id="box2" data-tense="present">talk</div>
+          <div class="border-light-1 p-1" data-tense="past">woke</div>
+          <div class="border-light-1 p-1" data-tense="past">stood</div>
+          <div class="border-light-1 p-1" data-tense="present">see</div>
+        </div>
+        <div class="d-flex space-between mt-2">
+          <div
+            style="height: 300px; width: 420px"
+            class="border-dark-2 p-1 text-center"
+            data-accept-tense="present"
+          >
+            <p>Present tense</p>
+          </div>
+          <div
+            style="height: 300px; width: 420px"
+            class="border-dark-2 p-1 text-center"
+            data-accept-tense="past"
+          >
+            <p>Past tense</p>
+          </div>
+        </div>
+      </section>
+    <footer>
+    <p>Lorain Freléchoux</p>
+    <!--<p>La date du rendu</p>-->
+    </footer>
+</body>
+<script src="./vendor/jquery/jquery.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/drag-drop-examples.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</html>
